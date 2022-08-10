@@ -1,0 +1,51 @@
+@media screen and (min-width: 750px) {
+    .header {
+        display: grid;
+        grid-template: 1fr / 1fr minmax(auto, 200px) minmax(auto, 800px) 1fr;
+        align-items: center;
+    }
+
+    .logo {
+        grid-column: 2/3;
+    }
+
+    .menu {
+        grid-column: 3/4;
+        display: flex;
+        justify-content: space-around;
+    }
+
+
+    .menu__item {}
+
+    .main {
+        flex-direction: row;
+        text-align: start;
+    }
+
+    .avatar {}
+
+    .avatar__img{
+
+    }
+
+    .author {}
+
+    .headline {}
+
+    .desc {}
+
+    .socials {}
+
+    .socials__telergam {}
+
+    .socials__github {}
+
+    .socials__gitlab {}
+
+    .footer {}
+
+    .footer__copy {}
+
+    .footer__text {}
+}
